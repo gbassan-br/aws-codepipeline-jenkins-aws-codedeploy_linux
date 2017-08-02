@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'net/http'
-require 'minitest'
+require 'minitest/autorun'
 require 'socket'
 
 class JenkinsSampleTest < MiniTest::Unit::TestCase
